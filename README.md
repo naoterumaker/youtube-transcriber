@@ -61,12 +61,12 @@ python3 transcribe_youtube.py "https://www.youtube.com/watch?v=VIDEO_ID" \
 
 ## 🔧 開発環境での使用
 
-### Cursor での使い方
+### エディタでの使い方
 
-1. Cursorで `youtube-transcriber` フォルダを開く
+1. 好きなエディタ（Cursor、VS Code、PyCharmなど）でプロジェクトフォルダを開く
 2. ターミナルで仮想環境をアクティベート: `source .venv/bin/activate`
 3. 文字起こし実行: `python transcribe_youtube.py "YouTube URL"`
-4. `output/` フォルダの結果をCursorで確認
+4. `output/` フォルダの結果をエディタで確認・編集
 
 ## 🤝 貢献
 

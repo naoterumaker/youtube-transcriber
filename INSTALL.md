@@ -61,15 +61,15 @@ python transcribe_youtube.py "https://www.youtube.com/watch?v=VIDEO_ID" \
 - `--output`: 出力ファイルのパス（デフォルト: `output/transcript.md`）
 - `--format`: 出力形式（`md` または `txt`、デフォルト: `md`）
 
-## 🔧 Cursor での使い方
+## 🔧 エディタでの使い方
 
 ### 1. プロジェクトを開く
 
-Cursorで `youtube-transcriber` フォルダを開きます。
+お好きなエディタ（Cursor、VS Code、PyCharmなど）で `youtube-transcriber` フォルダを開きます。
 
 ### 2. ターミナルでコマンド実行
 
-Cursor内のターミナルで以下を実行：
+エディタ内のターミナルまたは外部ターミナルで以下を実行：
 
 ```bash
 # 仮想環境をアクティベート
@@ -81,7 +81,7 @@ python transcribe_youtube.py "YouTube URL"
 
 ### 3. 結果の確認
 
-`output/` フォルダに生成されたMarkdownファイルをCursorで開いて確認できます。
+`output/` フォルダに生成されたMarkdownファイルをエディタで開いて確認・編集できます。
 
 ## 🌍 対応言語
 

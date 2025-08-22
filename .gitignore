@@ -35,6 +35,9 @@ env/
 *.swo
 *~
 
+# Editor-specific files
+.cursor/
+
 # OS
 .DS_Store
 .DS_Store?
